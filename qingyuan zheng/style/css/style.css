@@ -1,0 +1,30 @@
+.table_form td{padding-left:12px}
+.table_form th{font-weight:normal; text-align:right;padding-right:10px; color:#777; font-size:14px;background:#C8EBFA}
+.table_form td label{ vertical-align:middle}
+.table_form td , .table_form th{padding:8px 0 5px 8px;line-height:22px;}
+.table_form tbody td,.table_form tbody th{border-bottom:1px dashed #E8E8FF;border-right:1px dashed #E8E8FF; }
+
+#bootline {height:42px;overflow:hidden;zoom:1;line-height:42px;}
+
+#btnbox{
+position:fixed;overflow:hidden;zoom:1;width:100%;left:0;margin:0;border-top:1px solid #EBEBEB;bottom:0;
+ _position:absolute;_bottom:auto;
+ _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 42)||0)-  (parseInt(this.currentStyle.marginBottom, 42)||0)));
+}
+.input_select{ border:1px #A4A4A4 solid; padding:5px;}
+.btn{background:#f6f6f6; padding:6px 12px; height:30px;line-height:30px}
+.table-list th {padding-left:10px;_padding-left:5px; font:bold 13px/32px "微软雅黑";}
+.table-list td{padding-left:10px;_padding-left:5px;}
+.table-list td img {vertical-align:middle; border:0;}
+.table-list thead th { height:30px; background:#9ACCD9; border-right:1px solid #E8E8FF; font-weight:normal;line-height:30px;}
+.table-list tbody td , .table-list .btn{border-bottom: #E8E8FF 1px solid;border-right: #E8E8FF 1px solid;line-height:30px;}
+.btn{background:#f6f6f6; padding:6px 12px; height:30px;line-height:30px}
+.table-list tr:hover , .table-list table tbody tr:hover{ background:#fbffe4}
+.nHover tr:hover , .nHover tr:hover td{ background:none}
+.table-list .input-text-c{ padding:0; height:18px}
+.input-text-c{border:1px solid #A7A6AA;height:18px;padding:2px 5px; text-align:center}
+.td-line{border:1px solid #E8E8FF}
+.td-line td,.td-line th{border:1px solid #E8E8FF}
+.table-list tr.on,.table-list tr.on td,.table-list tr.on th,.table-list td.on,.table-list th.on{background:#fdf9e5;}
+a.close-own{background: url(../images/cross.png) no-repeat left 3px; display:block; width:16px; height:16px;position: absolute;outline:none;right:7px; top:8px; text-indent:200px; overflow: hidden}
+a.close-own:hover{background-position: left -46px}
